@@ -13,6 +13,6 @@ for d in div:
     for v in p:
         text.append([v.text.strip()])
 
-with open('new.csv', 'w', newline='') as file:
+with open('changed.csv', 'w', newline='') as file:
     writer = csv.writer(file)
     writer.writerows(text)
